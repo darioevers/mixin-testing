@@ -1,0 +1,8 @@
+@import "_variables.scss";
+@import "_mixins.scss";
+
+body {
+  @include center;
+  @include bodySize;
+  background-color: $backgroundcolor;
+}
